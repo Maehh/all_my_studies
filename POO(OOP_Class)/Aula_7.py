@@ -10,12 +10,10 @@
 class Caneta:
     def __init__(self, cor):
         # private protected
-        self.cor = cor
-        self._cor_tampa = None
+        self._cor = self.cor
 
     @property
     def cor(self):
-        print('ESTOU NO GETTER')
         return self._cor
     
 
@@ -25,3 +23,5 @@ caneta.cor = 'Rozeo'
 
 
 # getter ---> Obter valor 
+
+print(caneta.cor)

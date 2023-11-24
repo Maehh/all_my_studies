@@ -21,6 +21,11 @@ class Caneta:
     def cor(self):
         print('PROPERTY')
         return self.cor_tinta
+    
+    @property
+    def cor_tampa(self):
+        return 123456
+
 
 ###################################
 caneta = Caneta('Azul')                     # - Código cliente
