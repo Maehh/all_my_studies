@@ -12,5 +12,5 @@ while i < len(string) :
     i += 1
     
 else :
-    print('COCK !')
-print('SEM COCK')
+    print('SIM')
+print('NAO')

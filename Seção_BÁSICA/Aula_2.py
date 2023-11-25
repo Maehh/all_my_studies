@@ -1,6 +1,6 @@
-cu = False
+test = False
 
-if cu : 
-    print('CU!')
-elif cu == 0 :
-    print('COLUL')
+if test : 
+    print('A')
+elif test == 0 :
+    print('B')

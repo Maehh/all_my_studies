@@ -11,7 +11,7 @@
 # print(x)
 
 
-condicao = 'CU'
+condicao = 'oi'
 condicao2 = True
 bob = 1
 contador = 0
@@ -19,7 +19,7 @@ contador = 0
 
 
 while True :
-    nome = input('Digite "CU"  : ')
+    nome = input('Digite "oi"  : ')
 
     if condicao == nome :
         nome *= 12
