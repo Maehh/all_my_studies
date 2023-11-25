@@ -10,7 +10,7 @@
 class Caneta:
     def __init__(self, cor):
         # private protected
-        self._cor = self.cor
+        self._cor = cor
 
     @property
     def cor(self):
@@ -19,13 +19,17 @@ class Caneta:
     @cor.setter
     def cor(self, valor):
         print('Setter')
-        self.cor = valor
+        if valor == 'Rozeo':
+            raise ValueError('Cor errada')
+        self._cor = valor
 
 caneta = Caneta('Zaul')
 
-caneta.cor = 'Rozeo'
+caneta.cor = 'Rosio'
 
 
 # getter ---> Obter valor 
 
 print(caneta.cor)
+
+
