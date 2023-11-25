@@ -16,6 +16,10 @@ class Caneta:
     def cor(self):
         return self._cor
     
+    @cor.setter
+    def cor(self, valor):
+        print('Setter')
+        self.cor = valor
 
 caneta = Caneta('Zaul')
 
