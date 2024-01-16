@@ -13,6 +13,7 @@ def soma(x, y, /, *, z, **kwargs):
     print(kwargs)
     print(x + y + z)
 
-soma(1, 1, z=1, p = 'teste')
+
+soma(1, 1, z=1, p = 'teste 2 ')
 
 
