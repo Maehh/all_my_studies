@@ -29,7 +29,9 @@ class Cliente(Pessoa):
         print('AAAAAAAAAAAAA')
 
 class Aluno(Pessoa):
-    ...
+    
+    def study(self):
+        print("I no no wanna :(")
 
 c1 = Cliente('Jorje', 'Marcos')
 
@@ -38,5 +40,6 @@ c2 = Aluno('Maria', 'Eduarda')
 c1.say_hi()
 c2.say_hi()
 c1.scream()
+c2.study()
 # c2.scream()
 
