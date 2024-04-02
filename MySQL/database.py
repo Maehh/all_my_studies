@@ -24,7 +24,7 @@ def querry_entrada(conexao, querry):
     except Error as err:
         print(f'Erro: {err}')
 
-conexao = create_server_connection('LocalHost', 'root', 'Mysql64207@', 'ifce')
+conexao = create_server_connection('LocalHost', 'root', 'pswd', 'ifce')
 
 # CREATE TABLE aluno_faculdade(id_aluno INT NOT NULL AUTO_INCREMENT, nome VARCHAR(40) NOT NULL, 
 #semestre INT NOT NULL, data_nascimento DATE, sexo ENUM('M', 'F'), PRIMARY KEY(id_aluno));
