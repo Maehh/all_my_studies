@@ -1,0 +1,2 @@
+Sucess: Nokia foi ligado Smartphone
+Sucess: Nokia foi desligado Smartphone
